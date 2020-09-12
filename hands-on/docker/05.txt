@@ -1,0 +1,6 @@
+mkdir nginx-static
+cd nginx-static
+pwd
+docker run -p 1234:80 -v /root/nginx-static:/usr/share/nginx/html -d nginx
+touch index.html
+vi index.html
