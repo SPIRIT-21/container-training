@@ -1,0 +1,2 @@
+docker build -t python-example .
+docker run python-example
