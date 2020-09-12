@@ -1,0 +1,4 @@
+docker run ubuntu /bin/sh
+docker container ls
+docker container ls -a
+docker run -it ubuntu /bin/s
